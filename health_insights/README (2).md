@@ -1,3 +1,6 @@
+APP LINK -- https://data-science-yjqqwomqtxxwdfd4rnw7dz.streamlit.app/ 
+
+
 CANCER PREDICTION AND RISK ANALYSIS.
 OVERVIEW
 The Cancer Prediction & Risk Analysis initiative aims to aid clinical decision-making and raise patient awareness by examining lifestyle and health-related risk factors. Using predictive analytics, this system estimates the possible risk of cancer based on patient demographics and behaviors.
