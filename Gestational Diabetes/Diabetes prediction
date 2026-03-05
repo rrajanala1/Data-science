@@ -1,0 +1,33 @@
+Objective:
+To Develop a machine learning model to predict whether a pregnant women has diabetes based on various medical predictor variables. 
+The goal is to create a model that can accurately identify patients at risk of diabetes, enabling early intervention and better management of the condition.
+
+  Data Description-
+Diabetes Prediction Dataset
+Source: Kaggle (provided by user: mrsimple07)
+Dataset link:- https://www.kaggle.com/datasets/mrsimple07/diabetes-prediction?resource=download
+Description: This dataset is used for predicting whether a pregnant women has diabetes based on various health metrics.
+Number of Records: 768
+Features: Includes medical attributes such as glucose levels, blood pressure, skin thickness, insulin, BMI, age, and more.
+Objective: The primary goal is to predict diabetes presence in patients using these medical attributes.
+
+About Dataset
+The dataset generated for diabetes prediction purposes contains a range of features associated with diabetes risk factors. 
+These features may include variables such as blood sugar levels, body mass index (BMI), age, family history, and other relevant health indicators. 
+Each set of feature values is accompanied by a diagnosis label that indicates whether the individual has diabetes or not. This dataset is valuable for training machine learning models to predict the likelihood of diabetes based on the provided risk factors.
+It can be used for research, analysis, and the development of predictive models aimed at improving diabetes diagnosis and management.
+
+INTERPRETATION OF RESULTS.
+
+The RBF kernel achieves the maximum accuracy (80.9%) and has the most accurate classification boundary. This suggests that the data has a complex structure that necessitates a flexible, nonlinear decision boundary.
+The Sigmoid kernel aims to generate non-linearity but performs poorly owing to simplicity.Linear and polynomial kernels struggle to represent the classes' overlapping nature, resulting in lesser accuracy.
+
+In conclusion, for this dataset, the RBF kernel is the most effective choice among the four since it can describe non-linear patterns and adapt to the underlying data structure.
+
+The goal of this study was to create a prediction model for early detection of gestational diabetes mellitus utilizing a variety of machine learning approaches. 
+The analysis showed that:
+Feature Selection and Visualization: Critical predictors such as glucose and BMI were identified, providing information about their influence on diabetes risk.
+Among examined models, Naïve Bayes performed the best with a reasonable accuracy of 69.33%. However, there is opportunity for improvement with advanced approaches.
+The RBF kernel of the SVM model had the best accuracy of 80.9%, demonstrating that it is well-suited to capture complicated patterns in the dataset.
+
+Challenges: Models such as logistic regression and random forests had limitations due to class imbalance and potential underfitting.
