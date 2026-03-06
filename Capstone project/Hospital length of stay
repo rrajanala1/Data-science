@@ -1,0 +1,14 @@
+Predictive Modeling for Hospital Length of Stay Using Machine Learning
+OVERVIEW:-
+Hospital Length of Stay (LoS) is a critical healthcare performance statistic that influences patient outcomes, hospital resource consumption, and total healthcare expenditures. 
+Accurate LoS prediction can help hospitals plan better, manage discharges, and allocate resources. 
+This capstone project focuses on creating machine learning models to predict hospital length of stay based on patient demographic, clinical, and billing information.
+
+This capstone project uses machine learning to predict hospital length of stay (LoS). The length of stay is an essential healthcare performance statistic that affects patient outcomes, 
+hospital resource consumption, and discharge planning. The project makes use of a healthcare dataset from Kaggle that contains demographic, clinical, and billing information for adult patients. 
+The methodology includes data preprocessing, exploratory data analysis, feature engineering, and model training to determine the factors that influence hospital stay duration.
+
+Multiple machine learning models, including Linear Regression, Decision Tree, Random Forest, XGBoost, Neural Networks, K-Nearest Neighbors (KNN), and Support Vector Regression (SVR), were developed and tested.
+The Genetic Algorithm (GA) was employed for optimal feature selection, and SHAP (Shapley Additive Explanations) was utilized to analyze model predictions and find the most influential features. Random Forest outperformed
+the other models, but its total predictive accuracy was hampered by the dataset's lack of deeper clinical factors. The study focuses on critical parameters that influence length of stay, such as medical condition, billing amount, 
+admission type, age, and admission timing, to show how machine learning may help with healthcare analytics and hospital resource allocation.
